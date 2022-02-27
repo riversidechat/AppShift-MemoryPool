@@ -136,7 +136,7 @@ namespace AppShift::Memory {
 
 		/**
 		 * Start a scope in the memory pool.
-		 * All the allocations between startScope and andScope will be freed.
+		 * All the allocations between startScope and endScope will be freed.
 		 * It is a very efficient way to free multiple allocations
 		 * 
 		 * @param MemoryPool* mp Memory pool to start the scope in
